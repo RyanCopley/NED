@@ -1,5 +1,5 @@
 {
-  "name": "not-eighty-dollars",
+  "name": "NED",
   "version": "0.0.1",
   "description": "your api is probably down",
   "main": "server.js",
@@ -27,6 +27,7 @@
     "glob": "^5.0.15",
     "lodash": "^3.10.1",
     "mocha": "^2.3.3",
+    "morgan": "^1.6.1",
     "orm": "^2.1.27",
     "superagent": "^1.4.0",
     "utf8": "^2.1.1"
