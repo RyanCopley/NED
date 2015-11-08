@@ -1,5 +1,5 @@
 {
-  "name": "ned",
+  "name": "ned-server",
   "version": "0.0.1",
   "description": "your api is probably down",
   "main": "server.js",
