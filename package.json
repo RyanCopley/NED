@@ -1,0 +1,28 @@
+{
+  "name": "not-eighty-dollars",
+  "version": "0.0.1",
+  "description": "your api is probably down",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanCopley/not-eighty-dollars.git"
+  },
+  "keywords": [
+    "api",
+    "test"
+  ],
+  "author": "Ryan Copley <npm@ryancopley.com> (http://github.com/RyanCopley)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RyanCopley/not-eighty-dollars/issues"
+  },
+  "homepage": "https://github.com/RyanCopley/not-eighty-dollars#readme",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "lodash": "^3.10.1",
+    "superagent": "^1.4.0"
+  }
+}
