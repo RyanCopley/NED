@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RyanCopley/not-eighty-dollars.git"
+    "url": "git+https://github.com/RyanCopley/ned.git"
   },
   "keywords": [
     "api",
@@ -17,9 +17,9 @@
   "author": "Ryan Copley <npm@ryancopley.com> (http://github.com/RyanCopley)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RyanCopley/not-eighty-dollars/issues"
+    "url": "https://github.com/RyanCopley/ned/issues"
   },
-  "homepage": "https://github.com/RyanCopley/not-eighty-dollars#readme",
+  "homepage": "https://github.com/RyanCopley/ned#readme",
   "dependencies": {
     "bluebird": "^3.0.5",
     "body-parser": "~1.0.0",
@@ -28,6 +28,7 @@
     "lodash": "^3.10.1",
     "mocha": "^2.3.3",
     "morgan": "^1.6.1",
+    "ned-http": "^1.0.0",
     "orm": "^2.1.27",
     "superagent": "^1.4.0",
     "utf8": "^2.1.1"

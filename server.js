@@ -22,3 +22,16 @@ function startHTTPServer() {
     });
     return app;
 }
+
+var path = require("path");
+const Mocha = require("mocha");
+const mocha = new Mocha({
+    reporter: 'json'
+});
+
+mocha.addFile(path.join(__dirname, "containers/wlna-webservice/tests/test.js"));
+
+mocha.run(function(results){
+    console.log(results);
+
+});
