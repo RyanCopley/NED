@@ -23,7 +23,7 @@ function startHTTPServer() {
     return app;
 }
 
-var path = require("path");
+const path = require("path");
 const Mocha = require("mocha");
 const mocha = new Mocha({
     reporter: 'json'
@@ -32,6 +32,12 @@ const mocha = new Mocha({
 mocha.addFile(path.join(__dirname, "containers/wlna-webservice/tests/test.js"));
 
 mocha.run(function(results){
-    console.log(results);
+    console.log(results, "run1");
 
+    setTimeout(function(){
+
+        mocha.run(function(results){
+            console.log(results, "Run2");
+        });
+    }, 5000)
 });
